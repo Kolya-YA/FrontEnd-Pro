@@ -16,6 +16,7 @@ const secondLevel = () => {
     const moneyForNuts = vallet - marketExpenses
     console.log(`${moneyForNuts} — money for nuts`)
     console.log('moneyForNuts > marketExpenses', moneyForNuts > marketExpenses)
+    console.log(`Больше потратили на ${moneyForNuts > marketExpenses ? 'орехи' : 'фрукты и овощи'}`)
 }
 
 firstBtn.addEventListener('click', () => firstLevel())
