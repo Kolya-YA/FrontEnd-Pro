@@ -22,9 +22,11 @@ const firstLevel = () => {
 }
 
 const secondLevel = () => {
-    console.log(splitSum([1, -2, 3, 4, -9, 6]))
+    let [res01, res02] = splitSum([1, -2, 3, 4, -9, 6])
+    console.log(res01, res02)
     const rndArr = [...Array(1000000)].map(x => Math.floor(Math.random() * 201) - 100);
-    console.log(splitSum(rndArr))
+    [res01, res02] = splitSum(rndArr)
+    console.log(res01, res02)
 }
 
 firstBtn.addEventListener('click', () => firstLevel())
