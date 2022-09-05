@@ -8,3 +8,4 @@
 1. Loops and Arrow functions (24.08.2022)
 1. Array and String methods (26.08.2022)
 1. Objects and their methods (29.08.2022)
+1. This as this (age of cities) (02.09.2022)
