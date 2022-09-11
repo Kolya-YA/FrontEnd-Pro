@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/base16/solarized-dark.min.css" integrity="sha512-kBHeOXtsKtA97/1O3ebZzWRIwiWEOmdrylPrOo3D2+pGhq1m+1CroSOVErIlsqn1xmYowKfQNVDhsczIzeLpmg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Forntend homework | Array and String methods</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><-- Back to homepage</a>
+        <h1>Forntend homework</h1>
+    </header>
+    <main>
+        <h2>Inputs and Buttons</h2>
+        <ol type="I">
+            <li>Создайте input type text и три кнопки
+                кнопки должны иметь следующий функционал (должны запускать соотвествующие фунции)
+                <ol>
+                    <li>Кнопка "Очистить input" (удалять содержимое value тега input)</li>
+                    <li>Кнопка заблокировать инпут (disabled setAttribute)</li>
+                    <li>Кнопка разблокировать инпут (disabled removeAttribute) или input.disabled = true/false;</li>
+                </ol>
+            </li>
+            <li>Создайте в HTML два текстовых инпута и кнопку
+                Напишите функцию, которая будет по нажатию на кнопку
+                менять содержимое инпутов (value) местами</li>
+        </ol>
+
+    <form>
+        <input type="text" id="first-input">
+        <button type="reset">Reset</button>
+        <button type="button" id="disable-btn">Disable input</button>
+        <button type="button" id="enable-btn">Enable input</button>
+    </form>
+    
+    <form>
+        <input type="text" value="black" id="left-input">
+        <input type="text" value="white" id="right-input">
+        <button type="button" id="swap-btn">Swap</button>
+    </form>
+
+    <pre>
+        <code id="blockOfCode" class="language-javascript"></code>
+    </pre>
+
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js" integrity="sha512-gU7kztaQEl7SHJyraPfZLQCNnrKdaQi5ndOyt4L4UPL/FHDd/uB9Je6KDARIqwnNNE27hnqoWLBq+Kpe4iHfeQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="main.js" defer></script>
+<script src="task.js"></script>
+</html>
