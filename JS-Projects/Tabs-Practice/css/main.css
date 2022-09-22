@@ -1,4 +1,6 @@
 @import 'common.css';
 @import 'header.css';
 
-@import 'content.css'
+@import 'content.css';
+
+@import 'form.css';

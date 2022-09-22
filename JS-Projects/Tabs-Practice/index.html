@@ -42,9 +42,134 @@
                         <h2>Calc</h2>
                     </article>
                 </li>
-                <li class="content__item" data-article="form">
+                <li class="content__item content__item--active" data-article="form">
                     <article class="article">
-                        <h2>Form</h2>
+                        <form class="first-form" id="first-form">
+                            <h2 class="first-form__header">First form</h2>                    
+                            <label class="first-form__label">First name:
+                                <input  class="first-form__input"
+                                        type="text"
+                                        id="firstName"
+                                        placeholder="Enter first name"
+                                        required>
+                            </label>
+
+                            <label class="first-form__label">Last name:
+                                <input  class="first-form__input"
+                                        type="text"                                      
+                                        id="lastName"
+                                        placeholder="Enter last name"
+                                        required>
+                            </label>
+
+                            <label class="first-form__label"> Age:
+                                <input  class="first-form__input"
+                                        type="number"
+                                        min="18"
+                                        id="age"
+                                        placeholder="Enter your age"
+                                        required>
+                            </label>
+
+                            <label class="first-form__label">Phone:
+                                <input  class="first-form__input"
+                                        type="tel"
+                                        id="phone"
+                                        placeholder="Enter your phone"
+                                        name="phone"
+                                        required>
+                            </label>
+
+                            <label class="first-form__label">E-Mail:
+                                <input  class="first-form__input"
+                                        type="email"
+                                        id="eMail"
+                                        placeholder="Enter your E-mail"
+                                        required>
+                            </label>
+
+                            <label class="first-form__label">Date of birthday:
+                                <input  class="first-form__input"
+                                        type="date"
+                                        id="birthday"
+                                >
+                            </label>
+
+                            <fieldset class="first-form__fieldset">
+                                <legend>Preferred contact method</legend>
+                                
+                                <label>
+                                    <input type="radio" name="contactMethod" value="phone">
+                                    Phone
+                                </label>                    
+                                
+                                <label>
+                                    <input type="radio" name="contactMethod" value="email" id="email">
+                                    E-Mail
+                                </label>
+                                
+                                <label class="first-form__label--post">
+                                    <input type="radio" name="contactMethod" value="Post" id="postAddress">
+                                    Post
+                                    <label class="first-form__label first-form__label--hidden">Post address:
+                                        <textarea class="first-form__input"
+                                                  id="postAddress"
+                                                  cols="24" rows="5">
+                                        </textarea>
+                                    </label>
+                                </label>
+                                
+                            </fieldset>
+                            
+                            <label class="first-form__label">Password:
+                                <input  class="first-form__input"
+                                        type="password"
+                                        id="inputPassword"
+                                        placeholder="Enter password"
+                                        required>
+                            </label>
+
+                            <label  class="first-form__label">Repeat password:
+                                <input  class="first-form__input"
+                                        type="password"
+                                        id="inputRePassword"
+                                        placeholder="Repeat password"
+                                        required>
+                            </label>
+                            
+                            <p class="first-form__psw-comment">Password should be 8-20 characters long.</p>
+                            
+                            <label class="first-form__label" for="inLineCheckboxAgree">
+                                <input
+                                        type="checkbox"
+                                        id="inLineCheckboxAgree"
+                                        value="option1">
+                                Agree
+                            </label>
+                                
+                            <label class="first-form__label" for="inLineCheckboxShow">
+                                <input
+                                        type="checkbox"
+                                        id="inLineCheckboxShow"
+                                        value="option1"
+                                        checked>
+                                Show notice
+                            </label>
+                            
+                            <button class="first-form__submit-btn" type="submit" id="submit">
+                                Create account
+                            </button>
+                        </form>
+                    
+                        <div class="modal">
+                            <!-- 
+                            1. получить все элементы внутри модального окна
+                            2. написать функ. showModal (true - показывать, false - скрыть)
+                            3. приправ. заполнении формы показываем форму, при нажатии на крести - закрываем окно
+                            4. после showModal (true) заносим текст из инпутов в
+                            -->
+                        </div>
+                    
                     </article>
                 </li>
                 <li class="content__item" data-article="survey">

@@ -1,0 +1,52 @@
+.first-form {
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 14px;
+    background-color: #eee;
+    border-radius: 14px;
+    
+}
+
+.first-form__label {
+    display: block;
+    min-width: 100%;
+    margin-bottom: 10px;
+}
+
+.first-form__label--hidden {
+    display: none;
+}
+
+.first-form__label--post > input:checked + label {
+    display: block;
+}
+
+.first-form__input {
+    display: block;
+    width: 100%;
+    margin-top: 3px;
+    padding: 8px 10px 7px;
+    border-radius: 4px;
+    appearance: none;
+    border: none;
+}
+
+.first-form__input:invalid {
+    background-color: rgb(255, 211, 221);
+}
+
+.first-form__fieldset {
+    margin-bottom: 10px;
+}
+
+.first-form__psw-comment {
+    color: #888;
+    font-size: .8em;
+}
+
+.first-form__submit-btn {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 6px;
+}
