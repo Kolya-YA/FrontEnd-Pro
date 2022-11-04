@@ -20,6 +20,9 @@
 1. Tabs and other things (09.09.2022)  
     - [source code](https://github.com/Kolya-YA/FrontEnd-Pro/tree/master/JS-Projects/Tabs-Practice)
     - [GitHub Pages preview](https://kolya-ya.github.io/FrontEnd-Pro/JS-Projects/Tabs-Practice/)
+1. Dynamic rectangle (04.11.2022)  
+    - [source code](https://github.com/Kolya-YA/FrontEnd-Pro/tree/master/JS-Projects/dynamic-rect)
+    - [GitHub Pages preview](https://kolya-ya.github.io/FrontEnd-Pro/JS-Projects/dynamic-rect/)
 
 ## Markdown
 
