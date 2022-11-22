@@ -23,6 +23,9 @@
 1. Dynamic rectangle (04.11.2022)  
     - [source code](https://github.com/Kolya-YA/FrontEnd-Pro/tree/master/JS-Projects/dynamic-rect)
     - [GitHub Pages preview](https://kolya-ya.github.io/FrontEnd-Pro/JS-Projects/dynamic-rect/)
+1. Simple gallery (22.11.2022)  
+    - [source code](https://github.com/Kolya-YA/FrontEnd-Pro/tree/master/JS-Projects/GalleryJS/)
+    - [GitHub Pages preview](https://kolya-ya.github.io/FrontEnd-Pro/JS-Projects/GalleryJS/)
 
 ## Markdown
 
